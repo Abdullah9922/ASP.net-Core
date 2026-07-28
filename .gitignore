@@ -1,0 +1,13 @@
+**/.vs
+**/bin
+**/obj
+**/*.user
+**/Logs/*
+**/node_modules
+**/*.xml
+
+Properties/
+Dockerfile
+.dockerignore
+
+
