@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="Level 10/Level 10.csproj" Id="f3553dc5-aa38-4b25-845d-8b82103a6f7e" />
   <Project Path="Level 9/Level 9.csproj" Id="562e2247-a507-49f5-8012-950abecebef4" />
+  <Project Path="new/new.csproj" Id="f939b39f-6498-4d7a-9e33-54571cc728df" />
   <Project Path="prblm 1/prblm 1.csproj" />
   <Project Path="prblm 2/prblm 2.csproj" />
 </Solution>
