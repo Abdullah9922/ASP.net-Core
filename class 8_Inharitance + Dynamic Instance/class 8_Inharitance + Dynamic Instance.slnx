@@ -1,3 +1,6 @@
 <Solution>
+  <Project Path="Car Expart/Car Expart.csproj" Id="73d2d53f-c46f-4e42-8bdf-1c1c2cab5f21" />
+  <Project Path="Dynamic Instance making (Sorting)/Dynamic Instance making (Sorting).csproj" Id="5fdd7c40-24b5-4ded-9153-1affefc23f45" />
   <Project Path="Inharitance/Smart University Management System.csproj" />
+  <Project Path="Notification System/Notification System.csproj" Id="aed74bbc-77ac-4214-a0ee-8ef887d9373c" />
 </Solution>
