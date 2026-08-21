@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Enum/Enum.csproj" />
+  <Project Path="Structure/Structure.csproj" />
+</Solution>
