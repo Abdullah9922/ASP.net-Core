@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Enum/Enum.csproj" />
+  <Project Path="Operator Overloading/Operator Overloading.csproj" Id="fa80f017-5258-4df9-a0e4-ddb2b4f493c4" />
   <Project Path="Structure/Structure.csproj" />
 </Solution>
