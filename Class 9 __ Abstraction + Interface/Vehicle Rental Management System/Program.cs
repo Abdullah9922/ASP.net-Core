@@ -21,3 +21,35 @@ v.DisplayEngine();
 v.Honk();
 
 v.ShowDetails();
+
+
+// 
+IStudent student = new Student();
+
+// -------------------------
+// 1. ONLY GET
+// -------------------------
+
+Console.WriteLine(student.Name);   // ✅ get
+
+// student.Name = "Rahim";         // ❌ Error
+// কারণ interface-এ শুধু get আছে
+
+
+// -------------------------
+// 2. ONLY SET
+// -------------------------
+
+student.Age = 22;                  // ✅ set
+
+// Console.WriteLine(student.Age); // ❌ Error
+// কারণ interface-এ শুধু set আছে
+
+
+// -------------------------
+// 3. GET + SET
+// -------------------------
+
+student.Department = "CSE";       // ✅ set
+
+Console.WriteLine(student.Department); // ✅ get
