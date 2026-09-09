@@ -13,8 +13,13 @@
   <Project Path="Even Odd  (Practice)/Even Odd  (Practice).csproj" Id="0a433e9b-d2fa-42f5-9258-8afead058cf4" />
   <Project Path="Func Practice/Func Practice.csproj" Id="b93c72f0-fac7-4112-9cb2-ea6f591eb775" />
   <Project Path="Generic + Delegate + Lambda/Generic + Delegate + Lambda.csproj" Id="844a5927-6f58-4b10-81a3-8336e6118d25" />
+  <Project Path="Generic Custom Sort/Generic Custom Sort.csproj" Id="010b10ed-fb8d-497e-9fad-b609069f3c9a" />
+  <Project Path="Generic Filter System/Generic Filter System.csproj" Id="463b1aff-43eb-4206-a340-2761303089c6" />
   <Project Path="Greeting (Practice)/Greeting (Practice).csproj" Id="1562270d-17ef-40dd-b8fa-78f2aa6ce632" />
+  <Project Path="Mini Shopping System (Practice)/Mini Shopping System (Practice).csproj" Id="7917cf41-cc26-4bc1-82ec-e8b0ab5c2286" />
   <Project Path="Multicast Delegate/Multicast Delegate.csproj" Id="99e478fc-c9e1-4d02-81b3-6093a8c7332e" />
   <Project Path="Predicate (Practice)/Predicate (Practice).csproj" Id="a3c3d212-8847-43fe-babe-583d5ee370eb" />
   <Project Path="Simple Delegate/Simple Delegate.csproj" Id="7b04c641-6246-4ffb-98d6-54570835bcbd" />
+  <Project Path="Simple Event Example/Simple Event Example.csproj" Id="4f982a5f-e2ca-43ac-9336-bc6ed3efd0c9" />
+  <Project Path="Student Processing (Practice)/Student Processing (Practice).csproj" Id="be05a1e3-a59d-4756-9076-6b4f4515581e" />
 </Solution>
