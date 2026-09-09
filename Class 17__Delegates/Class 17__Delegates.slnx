@@ -1,0 +1,20 @@
+<Solution>
+  <Project Path="Action + Func + Predicate (Practice)/Action + Func + Predicate (Practice).csproj" Id="e924d95d-d191-49fd-9a65-b587754f611a" />
+  <Project Path="Anonymous Method (Pracitce)/Anonymous Method (Pracitce).csproj" Id="5ff3f1f1-c57c-4e57-b250-0b4245f4d518" />
+  <Project Path="Array Processing (Practice)/Array Processing (Practice).csproj" Id="9ce91d70-d8dd-433b-86dd-a24f53c6dace" />
+  <Project Path="Basic Delegates/Basic Delegates.csproj" />
+  <Project Path="Calculator Delegate (Practice)/Calculator Delegate (Practice).csproj" Id="c8e36de1-9eff-44a4-9690-a3c12d377d7a" />
+  <Project Path="Delegate as Parameter/Delegate as Parameter.csproj" Id="d63e3497-ba4d-40ff-8668-c241ae01c79c" />
+  <Project Path="Delegate Pipeline/Delegate Pipeline.csproj" Id="6200a91a-ac54-4799-800d-86799f172860" />
+  <Project Path="Delegate with Return Value/Delegate with Return Value.csproj" Id="8763bb1c-f422-4048-a889-76d750d121d5" />
+  <Project Path="Delegates Combine/Delegates Combine.csproj" Id="b84d65dc-071d-4681-82dc-9a9fab0e23c4" />
+  <Project Path="Employee Filtering (Practice)/Employee Filtering (Practice).csproj" Id="243360e3-8dd0-448b-bc06-38fa3eedd9a2" />
+  <Project Path="Employee Salary Calculator/Employee Salary Calculator.csproj" Id="0636ecf8-7de0-4a77-b50c-7bfc6d08c89c" />
+  <Project Path="Even Odd  (Practice)/Even Odd  (Practice).csproj" Id="0a433e9b-d2fa-42f5-9258-8afead058cf4" />
+  <Project Path="Func Practice/Func Practice.csproj" Id="b93c72f0-fac7-4112-9cb2-ea6f591eb775" />
+  <Project Path="Generic + Delegate + Lambda/Generic + Delegate + Lambda.csproj" Id="844a5927-6f58-4b10-81a3-8336e6118d25" />
+  <Project Path="Greeting (Practice)/Greeting (Practice).csproj" Id="1562270d-17ef-40dd-b8fa-78f2aa6ce632" />
+  <Project Path="Multicast Delegate/Multicast Delegate.csproj" Id="99e478fc-c9e1-4d02-81b3-6093a8c7332e" />
+  <Project Path="Predicate (Practice)/Predicate (Practice).csproj" Id="a3c3d212-8847-43fe-babe-583d5ee370eb" />
+  <Project Path="Simple Delegate/Simple Delegate.csproj" Id="7b04c641-6246-4ffb-98d6-54570835bcbd" />
+</Solution>
