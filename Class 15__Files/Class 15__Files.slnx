@@ -1,3 +1,9 @@
 <Solution>
+  <Project Path="Create Folder &amp; File (Practice)/Create Folder &amp; File (Practice).csproj" Id="345f69e5-30ff-4e02-ae73-bb378db3fbd9" />
   <Project Path="FileFirst/FileFirst.csproj" />
+  <Project Path="LearnFileInfo/LearnFileInfo.csproj" Id="742b8730-98d3-49cb-b698-29e74e38644e" />
+  <Project Path="Log File System (Practice)/Log File System (Practice).csproj" Id="97ae4fe5-7907-4440-a85d-986b00c10a2a" />
+  <Project Path="Search+Filter+Statistics (Practice)/Search+Filter+Statistics (Practice).csproj" Id="1a8b2b2a-f289-4399-8e91-81cb22bc80f2" />
+  <Project Path="Student Management Folder/Student Management Folder.csproj" Id="9565324c-396c-4c98-bfe7-3c3ad090c1b4" />
+  <Project Path="Student Management System (Practice)/Student Management System (Practice).csproj" Id="da095b2d-85ef-4bde-9e36-0d90d5334e06" />
 </Solution>
