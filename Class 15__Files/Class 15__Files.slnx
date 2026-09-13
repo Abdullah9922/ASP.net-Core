@@ -1,9 +1,20 @@
 <Solution>
   <Project Path="Create Folder &amp; File (Practice)/Create Folder &amp; File (Practice).csproj" Id="345f69e5-30ff-4e02-ae73-bb378db3fbd9" />
+  <Project Path="File Copy using FileStream (Practice)/File Copy using FileStream (Practice).csproj" Id="d53febd4-f7d9-4b77-95b6-989d0530dd9b" />
+  <Project Path="File Copy using FileStream/File Copy using FileStream.csproj" Id="75ed8979-bc0b-4525-a871-5fe2f8f7bade" />
   <Project Path="FileFirst/FileFirst.csproj" />
+  <Project Path="FileStream Basics (Practice)/FileStream Basics (Practice).csproj" Id="a8054c3c-5236-4996-9fb7-13b73354bf8a" />
+  <Project Path="FileStream dificulty Medium (Practice)/FileStream dificulty Medium (Practice).csproj" Id="9b85ed79-77da-4a4d-83f0-70cd516d7977" />
+  <Project Path="FileStream/FileStream.csproj" Id="622c7d70-e487-4e3c-93d2-14b69fb4fb6a" />
+  <Project Path="Final Project/Final Project.csproj" Id="94378b94-6c1c-4dd3-a77b-05b0ba8dece2" />
   <Project Path="LearnFileInfo/LearnFileInfo.csproj" Id="742b8730-98d3-49cb-b698-29e74e38644e" />
   <Project Path="Log File System (Practice)/Log File System (Practice).csproj" Id="97ae4fe5-7907-4440-a85d-986b00c10a2a" />
   <Project Path="Search+Filter+Statistics (Practice)/Search+Filter+Statistics (Practice).csproj" Id="1a8b2b2a-f289-4399-8e91-81cb22bc80f2" />
+  <Project Path="Seek() in FileStream/Seek() in FileStream.csproj" Id="b85d4785-2a43-4b26-b2f4-6eca08952d03" />
+  <Project Path="Student File Manager (Practice)/Student File Manager (Practice).csproj" Id="5a864f38-7f8a-4a01-96e3-fc03216c261c" />
   <Project Path="Student Management Folder/Student Management Folder.csproj" Id="9565324c-396c-4c98-bfe7-3c3ad090c1b4" />
   <Project Path="Student Management System (Practice)/Student Management System (Practice).csproj" Id="da095b2d-85ef-4bde-9e36-0d90d5334e06" />
+  <Project Path="Student Search (pracitce)/Student Search (pracitce).csproj" Id="50f466a7-557c-4c15-be74-e71e0d5e078c" />
+  <Project Path="Text Read using FileStream/Text Read using FileStream.csproj" Id="a305c165-084a-4383-8f10-f63e26b8c4b0" />
+  <Project Path="Text Write using FileStream/Text Write using FileStream.csproj" Id="bbd6faa8-7090-4240-936b-d516e7abaca2" />
 </Solution>

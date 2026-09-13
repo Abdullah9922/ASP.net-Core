@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Exception Handeling/Exception Handeling.csproj" />
+  <Project Path="Linq/Linq.csproj" />
+</Solution>
