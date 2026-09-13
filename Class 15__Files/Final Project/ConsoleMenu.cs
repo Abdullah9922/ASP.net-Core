@@ -6,7 +6,7 @@ namespace Final_Project
 {
     public static class ConsoleMenu
     {
-        public static void ConsoleMainMenu()
+        public static int ShowMainMenu()
         {
             Console.WriteLine("\n\n=== File Manager ===");
             Console.WriteLine("1. Organize by Extension");
@@ -14,6 +14,8 @@ namespace Final_Project
             Console.WriteLine("3. Split File");
             Console.WriteLine("4. Exit");
             Console.Write("Choice: ");
+            int input = int.Parse(Console.ReadLine());
+            return input;
         }
     }
 }
