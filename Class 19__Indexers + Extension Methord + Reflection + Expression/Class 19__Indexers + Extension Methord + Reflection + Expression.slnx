@@ -1,3 +1,7 @@
 <Solution>
+  <Project Path="Extension Method Example/Extension Method Example.csproj" />
+  <Project Path="Indexer Practice 1/Indexer Practice 1.csproj" />
+  <Project Path="Indexer Practice 2/Indexer Practice 2.csproj" />
   <Project Path="Indexers Example/Indexers Example.csproj" />
+  <Project Path="Student Mana Indexer/Student Mana Indexer.csproj" />
 </Solution>
