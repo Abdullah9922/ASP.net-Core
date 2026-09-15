@@ -21,7 +21,6 @@ class Program
         // ==========================================
 
         sb.Append("Hello");
-
         sb.Append(" ");
         sb.Append("World");
 
@@ -90,8 +89,7 @@ class Program
         // 6. Insert()
         // ==========================================
 
-        StringBuilder text =
-            new StringBuilder("Hello World");
+        StringBuilder text = new StringBuilder("Hello World");
 
         text.Insert(6, "Beautiful ");
 
@@ -104,8 +102,7 @@ class Program
         // 7. Remove()
         // ==========================================
 
-        StringBuilder removeText =
-            new StringBuilder("Hello Beautiful World");
+        StringBuilder removeText = new StringBuilder("Hello Beautiful World");
 
         // Remove "Beautiful "
         removeText.Remove(6, 10);
@@ -133,8 +130,7 @@ class Program
         // 9. Access character using index
         // ==========================================
 
-        StringBuilder word =
-            new StringBuilder("Hello");
+        StringBuilder word = new StringBuilder("Hello");
 
         Console.WriteLine(word[0]);
         Console.WriteLine(word[1]);
@@ -151,12 +147,9 @@ class Program
         // 10. Length
         // ==========================================
 
-        StringBuilder lengthTest =
-            new StringBuilder("Hello");
+        StringBuilder lengthTest = new StringBuilder("Hello");
 
-        Console.WriteLine(
-            "Length: " + lengthTest.Length
-        );
+        Console.WriteLine("Length: " + lengthTest.Length);
 
         Console.WriteLine();
 
@@ -203,8 +196,7 @@ class Program
         // 13. ToString()
         // ==========================================
 
-        StringBuilder builder =
-            new StringBuilder();
+        StringBuilder builder = new StringBuilder();
 
         builder.Append("Hello World");
 
