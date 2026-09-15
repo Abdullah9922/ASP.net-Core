@@ -17,10 +17,7 @@ namespace Operator_Overloading
 
         public static Complex operator +(Complex a, Complex b)
         {
-            return new Complex(
-                a.Real + b.Real,
-                a.Imaginary + b.Imaginary
-            );
+            return new Complex( a.Real + b.Real, a.Imaginary + b.Imaginary);
         }
     }
 }

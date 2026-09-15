@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="Distance sum (Operator Overload Practice)/Operator Overload (Practice).csproj" Id="ccc9a8ed-7659-4bae-92cb-35ed9c2dc506" />
+  <Project Path="Enum Practice/Enum Practice.csproj" Id="25883b56-763d-4bc2-beb1-06e743730d17" />
   <Project Path="Enum/Enum.csproj" />
   <Project Path="Operator Overloading/Operator Overloading.csproj" Id="fa80f017-5258-4df9-a0e4-ddb2b4f493c4" />
   <Project Path="Structure/Structure.csproj" />

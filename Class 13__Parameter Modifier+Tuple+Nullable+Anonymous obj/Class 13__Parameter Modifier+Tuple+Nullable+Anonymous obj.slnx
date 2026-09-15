@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="DateTime example/DateTime example.csproj" Id="af44179f-5f8d-4b4d-a134-51b1499a06fb" />
   <Project Path="Parameter Modifier/Parameter Modifier.csproj" />
+  <Project Path="StringBuilder Example/StringBuilder Example.csproj" Id="02c4e800-1d26-4b74-97f8-7c51016d7dd0" />
   <Project Path="TupleExample/TupleExample.csproj" Id="eec28364-c938-433e-8634-22913bad02ae" />
 </Solution>
