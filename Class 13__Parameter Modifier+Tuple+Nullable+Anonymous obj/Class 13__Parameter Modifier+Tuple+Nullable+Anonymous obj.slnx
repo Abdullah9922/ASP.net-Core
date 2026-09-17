@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="Anonymous Object Example/Anonymous Object Example.csproj" Id="4332f4bd-cf15-4553-975c-83ccbe3461db" />
+  <Project Path="Anonymous Object Paractice (Easy)/Anonymous Object Paractice (Easy).csproj" Id="f88932dd-aeda-43e6-968d-c676ebe4cdc6" />
   <Project Path="DateTime example/DateTime example.csproj" Id="af44179f-5f8d-4b4d-a134-51b1499a06fb" />
   <Project Path="DateTime Practice (Easy)/DateTime Practice (Easy).csproj" Id="54c0600c-d321-43a4-9935-f2b4e1c93386" />
   <Project Path="DateTime Practice (Hard)/DateTime Practice (Hard).csproj" Id="50f3e901-46b5-41f7-b14d-7f2eb85cd978" />
