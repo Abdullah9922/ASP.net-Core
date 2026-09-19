@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="Claculator (Medium)/Claculator (Medium).csproj" Id="886cc5be-1256-45da-81b7-d41f7172c7c7" />
   <Project Path="Generic Box (Practice)/Generic Box (Practice2).csproj" Id="c3a3114a-3c16-462c-b227-c1bfe317e286" />
+  <Project Path="Generic Library Order System (Practice2)/Generic Library Order System (Practice2).csproj" Id="4b50d585-2b9f-4b61-9327-aa68c7e4256d" />
   <Project Path="Generic Medium (Practice2)/Generic Medium (Practice2).csproj" Id="c2856040-226f-47fc-a7e0-3e07bc096f7a" />
   <Project Path="Generic Order System (Practice2)/Generic Order System (Practice2).csproj" Id="1a93e900-f70c-4dc5-8deb-1c2a89588cc2" />
   <Project Path="Generic Product Repository (Practice2)/Generic Product Repository (Practice2).csproj" Id="32043361-defc-4cf5-8c9e-ae14f062e75b" />
