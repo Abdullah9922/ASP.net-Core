@@ -8,6 +8,7 @@
   <Project Path="Delegate Pipeline/Delegate Pipeline.csproj" Id="6200a91a-ac54-4799-800d-86799f172860" />
   <Project Path="Delegate with Return Value/Delegate with Return Value.csproj" Id="8763bb1c-f422-4048-a889-76d750d121d5" />
   <Project Path="Delegates Combine/Delegates Combine.csproj" Id="b84d65dc-071d-4681-82dc-9a9fab0e23c4" />
+  <Project Path="Delegates Example (2nd Time)/Delegates Example (2nd Time).csproj" Id="155847c1-9ce1-4fb5-8876-0ad5dc41b83a" />
   <Project Path="Employee Filtering (Practice)/Employee Filtering (Practice).csproj" Id="243360e3-8dd0-448b-bc06-38fa3eedd9a2" />
   <Project Path="Employee Salary Calculator/Employee Salary Calculator.csproj" Id="0636ecf8-7de0-4a77-b50c-7bfc6d08c89c" />
   <Project Path="Even Odd  (Practice)/Even Odd  (Practice).csproj" Id="0a433e9b-d2fa-42f5-9258-8afead058cf4" />
