@@ -10,12 +10,14 @@
   <Project Path="Delegate with Return Value/Delegate with Return Value.csproj" Id="8763bb1c-f422-4048-a889-76d750d121d5" />
   <Project Path="Delegates Combine/Delegates Combine.csproj" Id="b84d65dc-071d-4681-82dc-9a9fab0e23c4" />
   <Project Path="Delegates Example (2nd Time)/Delegates Example (2nd Time).csproj" Id="155847c1-9ce1-4fb5-8876-0ad5dc41b83a" />
+  <Project Path="Delegates Examples (Practice 2)/Delegates Examples (Practice 2).csproj" Id="2d61bbc2-e0f8-4c75-a293-a6216653431a" />
   <Project Path="Employee Filtering (Practice)/Employee Filtering (Practice).csproj" Id="243360e3-8dd0-448b-bc06-38fa3eedd9a2" />
   <Project Path="Employee Salary Calculator/Employee Salary Calculator.csproj" Id="0636ecf8-7de0-4a77-b50c-7bfc6d08c89c" />
   <Project Path="Even Odd  (Practice)/Even Odd  (Practice).csproj" Id="0a433e9b-d2fa-42f5-9258-8afead058cf4" />
   <Project Path="Func Practice/Func Practice.csproj" Id="b93c72f0-fac7-4112-9cb2-ea6f591eb775" />
   <Project Path="Generic + Delegate + Lambda/Generic + Delegate + Lambda.csproj" Id="844a5927-6f58-4b10-81a3-8336e6118d25" />
   <Project Path="Generic Custom Sort/Generic Custom Sort.csproj" Id="010b10ed-fb8d-497e-9fad-b609069f3c9a" />
+  <Project Path="Generic Filter (Practice 2)/Generic Filter (Practice 2).csproj" Id="064f2a28-0d8c-44fa-bde4-1af4de3e0b82" />
   <Project Path="Generic Filter System/Generic Filter System.csproj" Id="463b1aff-43eb-4206-a340-2761303089c6" />
   <Project Path="Greeting (Practice)/Greeting (Practice).csproj" Id="1562270d-17ef-40dd-b8fa-78f2aa6ce632" />
   <Project Path="Mini Shopping System (Practice)/Mini Shopping System (Practice).csproj" Id="7917cf41-cc26-4bc1-82ec-e8b0ab5c2286" />
