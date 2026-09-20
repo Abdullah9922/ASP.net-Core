@@ -26,7 +26,14 @@ Func<int, int, int> add3 = (a, b) =>  // 3
 // 2 form of Action 
 Action<string> printName1 = name => Console.WriteLine(name); // 1
 printName1("Asif");
- 
+
+
+Action sayHello = () => // 2
+{
+    Console.WriteLine("Hello");
+};
+
+sayHello();
 
 Action<string> printName2 = name =>   // 2
 {
