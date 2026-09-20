@@ -13,6 +13,7 @@
   <Project Path="Delegates Examples (Practice 2)/Delegates Examples (Practice 2).csproj" Id="2d61bbc2-e0f8-4c75-a293-a6216653431a" />
   <Project Path="Employee Filtering (Practice)/Employee Filtering (Practice).csproj" Id="243360e3-8dd0-448b-bc06-38fa3eedd9a2" />
   <Project Path="Employee Salary Calculator/Employee Salary Calculator.csproj" Id="0636ecf8-7de0-4a77-b50c-7bfc6d08c89c" />
+  <Project Path="Employee Salary System (Practice 2)/Employee Salary System (Practice 2).csproj" Id="f445a9c7-c2f5-432d-a2fa-24ef6c18e6d7" />
   <Project Path="Even Odd  (Practice)/Even Odd  (Practice).csproj" Id="0a433e9b-d2fa-42f5-9258-8afead058cf4" />
   <Project Path="Func Practice/Func Practice.csproj" Id="b93c72f0-fac7-4112-9cb2-ea6f591eb775" />
   <Project Path="Generic + Delegate + Lambda/Generic + Delegate + Lambda.csproj" Id="844a5927-6f58-4b10-81a3-8336e6118d25" />
