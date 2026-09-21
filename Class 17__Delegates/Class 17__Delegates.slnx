@@ -11,6 +11,7 @@
   <Project Path="Delegates Combine/Delegates Combine.csproj" Id="b84d65dc-071d-4681-82dc-9a9fab0e23c4" />
   <Project Path="Delegates Example (2nd Time)/Delegates Example (2nd Time).csproj" Id="155847c1-9ce1-4fb5-8876-0ad5dc41b83a" />
   <Project Path="Delegates Examples (Practice 2)/Delegates Examples (Practice 2).csproj" Id="2d61bbc2-e0f8-4c75-a293-a6216653431a" />
+  <Project Path="DownloadEventArgs (Practice)/DownloadEventArgs (Practice).csproj" Id="518e683c-71ec-4b3c-bfd5-4988adccfda3" />
   <Project Path="Employee Filtering (Practice)/Employee Filtering (Practice).csproj" Id="243360e3-8dd0-448b-bc06-38fa3eedd9a2" />
   <Project Path="Employee Salary Calculator/Employee Salary Calculator.csproj" Id="0636ecf8-7de0-4a77-b50c-7bfc6d08c89c" />
   <Project Path="Employee Salary System (Practice 2)/Employee Salary System (Practice 2).csproj" Id="f445a9c7-c2f5-432d-a2fa-24ef6c18e6d7" />
