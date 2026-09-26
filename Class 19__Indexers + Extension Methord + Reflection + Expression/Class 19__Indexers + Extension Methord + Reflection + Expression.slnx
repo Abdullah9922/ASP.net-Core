@@ -3,5 +3,7 @@
   <Project Path="Indexer Practice 1/Indexer Practice 1.csproj" />
   <Project Path="Indexer Practice 2/Indexer Practice 2.csproj" />
   <Project Path="Indexers Example/Indexers Example.csproj" />
+  <Project Path="Rcflection Example 2 (Claculator)/Rcflection Example 2 (Claculator).csproj" Id="627639e8-5b32-4aaa-96a3-52528a4649fd" />
+  <Project Path="Reflection Example 1 (Typeof+GetType)/Reflection Example 1 (Typeof+GetType).csproj" Id="9122ce8e-8d04-40e9-b53b-1f520c7615d9" />
   <Project Path="Student Mana Indexer/Student Mana Indexer.csproj" />
 </Solution>
