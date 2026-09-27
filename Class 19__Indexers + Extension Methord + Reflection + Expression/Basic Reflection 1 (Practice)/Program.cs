@@ -15,7 +15,7 @@ foreach (PropertyInfo property in properties)
     Console.WriteLine(property.PropertyType);
 }
 
-MemberInfo[] members = type.GetMembers();
+MemberInfo[] members = type.GetMembers(BindingFlags.Static|BindingFlags.NonPublic|BindingFlags.Instance);
 foreach (MemberInfo member in members)
 {
     Console.WriteLine(member.Name);
@@ -27,7 +27,8 @@ foreach (PropertyInfo property in properties)
 {
     if (property.Name == "Name")
     {
-        property.SetValue(obj, "Asif");
+        property.SetValue(obj, "Asifa");
+        Console.WriteLine("--------> " +property.GetValue(obj, null));
     }
 }
 
