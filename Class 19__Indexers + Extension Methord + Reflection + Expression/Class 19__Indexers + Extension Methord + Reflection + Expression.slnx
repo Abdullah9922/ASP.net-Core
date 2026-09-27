@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="Basic Reflection 1 (Practice)/Basic Reflection 1 (Practice).csproj" Id="2ee388c8-366f-492b-96c3-ac7b80b733d5" />
+  <Project Path="Dynamic Object Creation (Reflection Practice)/Dynamic Object Creation (Reflection Practice).csproj" Id="2c1c3d56-3995-419f-b138-7fd0bfe89588" />
   <Project Path="Extension Method Example/Extension Method Example.csproj" />
   <Project Path="Indexer Practice 1/Indexer Practice 1.csproj" />
   <Project Path="Indexer Practice 2/Indexer Practice 2.csproj" />

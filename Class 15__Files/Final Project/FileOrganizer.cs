@@ -30,8 +30,7 @@ namespace Final_Project
                             if (string.IsNullOrEmpty(extensionn))
                                 continue;
 
-                            string folderPathByExtension =
-                                Path.Combine(newFolderPath, extensionn);
+                            string folderPathByExtension = Path.Combine(newFolderPath, extensionn);
 
                             if (!Directory.Exists(folderPathByExtension))
                             {

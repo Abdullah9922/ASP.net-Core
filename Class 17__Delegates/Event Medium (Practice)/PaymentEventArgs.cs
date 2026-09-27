@@ -9,6 +9,9 @@ namespace Event_Medium__Practice_
         public int PaymentId { get; set; }
         public string CustomerName { get; set; }
         public double Amount { get; set; }
-        public PaymentEventArgs(int paymentId, string customerName, double amount) { PaymentId = paymentId; CustomerName = customerName; Amount = amount; }
+        public PaymentEventArgs(int paymentId, string customerName, double amount)
+        {
+            PaymentId = paymentId; CustomerName = customerName; Amount = amount; 
+        }
     }
 }
