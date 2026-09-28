@@ -225,9 +225,7 @@ class Program
 
         foreach (var s in students)
         {
-            Console.WriteLine(
-                $"{s.Id} {s.Name} {s.CGPA}"
-            );
+            Console.WriteLine($"{s.Id} {s.Name} {s.CGPA}");
         }
 
 
