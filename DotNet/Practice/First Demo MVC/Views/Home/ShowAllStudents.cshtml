@@ -1,0 +1,18 @@
+﻿
+
+@model IEnumerable<First_Demo_MVC.Models.Student>
+
+<h1>Student Details</h1>
+<hr/>
+
+<div class="container">
+    @{
+        foreach(var item in Model)
+        {
+            <h4>Roll Number: @item.Id</h4>
+            <h4>Name       : @item.Name</h4>
+            <h4>CGPA       : @item.Cgpa</h4>
+            <hr/>
+        }
+    }
+</div>

@@ -8,7 +8,13 @@ namespace First_Demo_MVC.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            Student s = new Student()
+            {
+                Id = 1,
+                Name = "Test",
+                Cgpa = 3.4
+            };
+            return View(s);
         }
 
         public IActionResult ContractUs()
@@ -29,6 +35,16 @@ namespace First_Demo_MVC.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+        public IActionResult ShowAllStudents()
+        {
+            List<Student> students = new List<Student>()
+            { 
+                new Student () {Id = 001, Name = "Korim",Cgpa = 3.65},
+                new Student () {Id = 002, Name = "Rohim",Cgpa = 3.48},
+                new Student () {Id = 003, Name = "Zoshim",Cgpa = 3.21}
+            };
+            return View(students);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

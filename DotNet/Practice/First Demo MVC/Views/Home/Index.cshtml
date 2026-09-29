@@ -1,8 +1,14 @@
-﻿@{
+﻿
+@model First_Demo_MVC.Models.Student
+@{
     ViewData["Title"] = "Home Page";
 }
 
+
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1>Student Details</h1>
+    <h3>Id  : @Model.Id</h3>
+    <h3>Name: @Model.Name</h3>
+    <h3>CGPA: @Model.Cgpa</h3>
 </div>
