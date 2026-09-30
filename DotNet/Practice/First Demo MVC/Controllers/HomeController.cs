@@ -8,27 +8,40 @@ namespace First_Demo_MVC.Controllers
     {
         public IActionResult Index()
         {
+            TempData["Message"] = "This is a massage from Index Action Methord.";
             Student s = new Student()
             {
                 Id = 1,
                 Name = "Test",
                 Cgpa = 3.4
             };
+            //return RedirectToAction("Gallary");
             return View(s);
         }
 
         public IActionResult ContractUs()
         {
+            ViewData["PId"] = 001;
+            ViewData["PName"] = "Laptop";
+            ViewData["Price"] = 340000.5;
+            ViewData["Quantity"] = 5;
             return View();
         }
 
         public IActionResult Gallary()
         {
+            
+            ViewBag.Roll = 918;
+            ViewBag.Name = "Asif";
+            ViewBag.Cgpa = 3.5;
+            ViewBag.Num1 = 3;
+            ViewBag.Num2 = 4;
             return View();
         }
 
         public IActionResult OurTeam()
         {
+            
             return View();
         }
 

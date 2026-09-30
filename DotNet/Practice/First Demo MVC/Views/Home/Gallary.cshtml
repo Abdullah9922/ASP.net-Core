@@ -2,6 +2,18 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    int sum = ViewBag.Num1 + ViewBag.Num2;
 }
 
 <h1>Gallary section</h1>
+
+<h2>View Bag : </h2>
+<h4>Student Roll: @ViewBag.Roll</h4>
+<h4>Student Name: @ViewBag.Name</h4>
+<h4>Student CGPA: @ViewBag.Cgpa</h4>
+<h4>Sum         : @sum</h4>
+
+<br />
+<hr />
+
+<h2>Message : @TempData["Message"]  </h2>
