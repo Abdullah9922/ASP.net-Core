@@ -45,6 +45,36 @@ namespace First_Demo_MVC.Controllers
             return View();
         }
 
+        public IActionResult FormSection()
+        {
+
+            return View();
+        }
+
+        public IActionResult ShowData(string nm,string gn, int age)
+        {
+            ViewBag.Name = nm;
+            ViewBag.Gender = gn;
+            ViewBag.Age = age;
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult RequestData(IFormCollection data)
+        {
+            ViewBag.Name = data["nm2"];
+            ViewBag.Gender = data["gn2"];
+            ViewBag.Age = data["age2"];
+
+            //ViewBag.Name = Request.Form["nm2"];
+            //ViewBag.Gender = Request.Form["gn2"];
+            //ViewBag.Age = Request.Form["age2"];
+            return View();
+        }
+
+        
+
+
         public IActionResult Privacy()
         {
             return View();

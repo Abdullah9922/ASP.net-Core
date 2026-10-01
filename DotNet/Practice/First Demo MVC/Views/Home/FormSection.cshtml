@@ -1,0 +1,117 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div>
+    <h1>Form Section</h1>
+    <form name="fr" action="/Home/ShowData">
+
+        <div>
+            <label>Enter Your Name</label>
+        </div>
+
+        <dib>
+            <input type="text" name="nm" />
+        </dib>
+
+        <div>
+            <label>Enter Your Gender</label>
+        </div>
+
+        <dib>
+            <input type="text" name="gn" />
+        </dib>
+
+        <div>
+            <label>Enter Your Age</label>
+        </div>
+
+        <div>
+            <input type="number" name="age" />
+        </div>
+
+        <div>
+            <input type="submit" value="submit" />
+        </div>
+
+    </form>
+
+    <br />
+    <hr />
+
+</div>
+
+<div>
+    <form name="fr2" action="/Home/RequestData" method="post">
+
+        <div>
+            <label>Enter Your Name</label>
+        </div>
+
+        <dib>
+            <input type="text" name="nm2" />
+        </dib>
+
+        <div>
+            <label>Enter Your Gender</label>
+        </div>
+
+        <dib>
+            <select name="gn2">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </dib>
+
+        <div>
+            <label>Enter Your Age</label>
+        </div>
+
+        <dib>
+            <input type="number" name="age2" />
+        </dib>
+
+        <div>
+            <input type="submit" value="Send Data" />
+        </div>
+
+    </form>
+</div>
+
+
+ <div>
+    <form name="fr" action="/Product/ProdectData" method="post">
+
+        <div>
+            <label>Enter Prodect Id</label>
+        </div>
+
+        <dib>
+            <input type="text" name="Id" />
+        </dib>
+
+        <div>
+            <label>Enter Product Name</label>
+        </div>
+
+        <dib>
+            <input type="text" name="Name" />
+        </dib>
+
+        <div>
+            <label>Enter Price</label>
+        </div>
+
+        <dib>
+            <input type="number" name="Price" />
+        </dib>
+
+        <div>
+            <input type="submit" value="submit" />
+        </div>
+
+    </form>
+</div>
