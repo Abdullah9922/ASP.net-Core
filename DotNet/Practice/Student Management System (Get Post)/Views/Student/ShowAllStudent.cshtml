@@ -1,0 +1,70 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<Student>
+
+<div class="container mt-5">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">Student List</h2>
+        <span class="badge bg-primary fs-6">@Model.Count Students</span>
+    </div>
+
+    <div class="card shadow-sm border-0">
+        <div class="card-body p-0">
+
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+
+                    <thead class="table-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Department</th>
+                            <th>Email</th>
+                            <th>CGPA</th>
+                            <th>Date of Birth</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var s in Model)
+                        {
+                            <tr>
+                                <td class="fw-bold">@s.Id</td>
+
+                                <td>
+                                    <div class="fw-semibold">@s.Name</div>
+                                </td>
+
+                                <td>
+                                    <span class="badge bg-primary">
+                                        @s.Department
+                                    </span>
+                                </td>
+
+                                <td>@s.Email</td>
+
+                                <td>
+                                    <span class="fw-semibold">
+                                        @s.Cgpa
+                                    </span>
+                                </td>
+
+                                <td>
+                                    @s.DateOfBirth.ToString("dd MMM yyyy")
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</div>

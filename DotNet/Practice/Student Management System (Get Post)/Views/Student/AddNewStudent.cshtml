@@ -1,0 +1,62 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<div class="container mt-5">
+
+    <div class="card shadow mx-auto" style="max-width: 650px;">
+
+        <div class="card-header bg-primary text-white text-center">
+            <h2>Add Student</h2>
+        </div>
+
+        <div class="card-body">
+
+            <form action="/Student/AddNewStudent" method="post">
+
+                <div class="mb-3">
+                    <label class="form-label">Student ID</label>
+                    <input type="number" name="Id" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Name</label>
+                    <input type="text" name="Name" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" name="Email" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Department</label>
+                    <input type="text" name="Department" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">CGPA</label>
+                    <input type="number" name="Cgpa" step="0.01" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Date of Birth</label>
+                    <input type="date" name="DateOfBirth" class="form-control" />
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">
+                        Submit
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+

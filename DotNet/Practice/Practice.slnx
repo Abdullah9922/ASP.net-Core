@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="First Demo MVC/First Demo MVC.csproj" />
+  <Project Path="Student Management System (Get Post)/Student Management System (Get Post).csproj" Id="970d07c2-da75-480a-87bc-306b824b3543" />
   <Project Path="Student Management System/Student Management System.csproj" Id="a4805097-208c-46f3-bd3b-d11c85051fd3" />
 </Solution>
