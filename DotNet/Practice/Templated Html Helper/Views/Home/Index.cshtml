@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Templated_Html_Helper.Models.Student
+
+@using (Html.BeginForm("Index", "Home"))
+{
+    @Html.DisplayName("Id") @* Standard *@
+    @Html.Editor("Id")
+    <br />
+
+    @Html.DisplayNameFor( x => x.Id) @* Strongly type *@
+    @Html.EditorFor(x => x.Id )
+    <br />
+
+    @Html.DisplayName("Name")
+    @Html.Editor("Name")
+    <br />
+
+    @Html.DisplayName("DateOfBirth")
+    @Html.Editor("DateOfBirth")
+    <br />
+
+    @Html.DisplayName("IsDisable")
+    @Html.Editor("IsDisable")
+    <br />
+
+    <input type="submit" value="Submit"/>
+}
