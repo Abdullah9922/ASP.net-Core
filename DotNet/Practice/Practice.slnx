@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Custoom Helper Html/Custoom Helper Html.csproj" Id="5f0b1fb8-c28b-46e8-a62f-58271b0553f9" />
   <Project Path="First Demo MVC/First Demo MVC.csproj" />
   <Project Path="Standard HTML Helper/Standard HTML Helper.csproj" Id="d996b67f-771d-48df-8bf4-4a294c90331d" />
   <Project Path="Strongly Type HTML Helper/Strongly Type HTML Helper.csproj" Id="38470b44-9b71-48e3-9e23-3255b9cde2c5" />
