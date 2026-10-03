@@ -10,11 +10,9 @@ class Program
         // DLL load
         Assembly assembly = Assembly.LoadFrom(path);
 
-        Console.WriteLine(
-            $"Assembly: {assembly.FullName}");
+        Console.WriteLine($"Assembly: {assembly.FullName}");
 
-        Console.WriteLine(
-            $"Location: {assembly.Location}");
+        Console.WriteLine($"Location: {assembly.Location}");
 
         // Get all types
         Type[] types =
