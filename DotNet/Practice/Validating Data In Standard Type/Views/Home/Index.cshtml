@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewData["Title"] = "Add Student";
+}
+
+<h2>Add Student</h2>
+
+<form action="/Home/Index" method="post">
+
+    <div>
+        @Html.Label("Id", "Student's Id")
+
+        @Html.TextBox(
+            "Id",
+            null,
+            new
+            {
+                type = "number",
+                id = "Id"
+            })
+
+        @Html.ValidationMessage("Id")
+    </div>
+
+    <br />
+
+    <div>
+        @Html.Label("Name", "Student's Name")
+
+        @Html.TextBox(
+            "Name",
+            null,
+            new
+            {
+                type = "text",
+                id = "Name"
+            })
+
+        @Html.ValidationMessage("Name")
+    </div>
+
+    <br />
+
+    <div>
+        @Html.Label("Email", "Student's Email")
+
+        @Html.TextBox(
+            "Email",
+            null,
+            new
+            {
+                type = "email",
+                id = "Email"
+            })
+
+        @Html.ValidationMessage("Email")
+    </div>
+
+    <br />
+
+    <div>
+        @Html.Label("Number", "Student's Mobile Number")
+
+        @Html.TextBox(
+            "Number",
+            null,
+            new
+            {
+                type = "tel",
+                id = "Number"
+            })
+
+        @Html.ValidationMessage("Number")
+    </div>
+
+    <br />
+
+    <div>
+        @Html.Label("DateOfBirth", "Student's Date Of Birth")
+
+        @Html.TextBox(
+            "DateOfBirth",
+            null,
+            new
+            {
+                type = "date",
+                id = "DateOfBirth"
+            })
+
+        @Html.ValidationMessage("DateOfBirth")
+    </div>
+
+    <br />
+
+    <button type="submit">Add Student</button>
+
+</form>
