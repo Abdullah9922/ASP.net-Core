@@ -1,0 +1,93 @@
+﻿@model Student
+
+@{
+    ViewData["Title"] = "Add Student";
+}
+
+<h2>Add Student</h2>
+
+<form action="/Home/Index" method="post">
+
+    <div>
+        @Html.LabelFor(x => x.Id, "Student's Id")
+
+        @Html.TextBoxFor(
+            x => x.Id,
+            new
+            {
+                type = "number",
+                id = "Id"
+            })
+
+        @Html.ValidationMessageFor(x => x.Id)
+    </div>
+
+    <br />
+
+    <div>
+        @Html.LabelFor(x => x.Name, "Student's Name")
+
+        @Html.TextBoxFor(
+            x => x.Name,
+            new
+            {
+                type = "text",
+                id = "Name"
+            })
+
+        @Html.ValidationMessageFor(x => x.Name)
+    </div>
+
+    <br />
+
+    <div>
+        @Html.LabelFor(x => x.Email, "Student's Email")
+
+        @Html.TextBoxFor(
+            x => x.Email,
+            new
+            {
+                type = "email",
+                id = "Email"
+            })
+
+        @Html.ValidationMessageFor(x => x.Email)
+    </div>
+
+    <br />
+
+    <div>
+        @Html.LabelFor(x => x.Number, "Student's Mobile Number")
+
+        @Html.TextBoxFor(
+            x => x.Number,
+            new
+            {
+                type = "tel",
+                id = "Number"
+            })
+
+        @Html.ValidationMessageFor(x => x.Number)
+    </div>
+
+    <br />
+
+    <div>
+        @Html.LabelFor(x => x.DateOfBirth, "Student's Date Of Birth")
+
+        @Html.TextBoxFor(
+            x => x.DateOfBirth,
+            new
+            {
+                type = "date",
+                id = "DateOfBirth"
+            })
+
+        @Html.ValidationMessageFor(x => x.DateOfBirth)
+    </div>
+
+    <br />
+
+    <button type="submit">Add Student</button>
+
+</form>

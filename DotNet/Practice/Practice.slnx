@@ -8,4 +8,5 @@
   <Project Path="Student Management System/Student Management System.csproj" Id="a4805097-208c-46f3-bd3b-d11c85051fd3" />
   <Project Path="Templated Html Helper/Templated Html Helper.csproj" Id="22ee01ef-f44f-48ea-be33-88529f79209e" />
   <Project Path="Validating Data In Standard Type/Validating Data In Standard Type.csproj" Id="19ff878c-0759-4da0-ba28-3ab4b0f85b8d" />
+  <Project Path="Validation Data in Strongly type Form/Validation Data in Strongly type Form.csproj" Id="07b23628-cb61-4e56-932f-a28829f9a486" />
 </Solution>
