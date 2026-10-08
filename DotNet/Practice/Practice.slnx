@@ -9,4 +9,5 @@
   <Project Path="Templated Html Helper/Templated Html Helper.csproj" Id="22ee01ef-f44f-48ea-be33-88529f79209e" />
   <Project Path="Validating Data In Standard Type/Validating Data In Standard Type.csproj" Id="19ff878c-0759-4da0-ba28-3ab4b0f85b8d" />
   <Project Path="Validation Data in Strongly type Form/Validation Data in Strongly type Form.csproj" Id="07b23628-cb61-4e56-932f-a28829f9a486" />
+  <Project Path="Validation Summary/Validation Summary.csproj" Id="b4c1edb0-1896-4149-9d88-77a25b36ba88" />
 </Solution>
