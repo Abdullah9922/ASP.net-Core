@@ -41,21 +41,32 @@ namespace Course_Enrollment_Management__Practice_.Controllers
             if (ModelState.IsValid)
             {
                 Students.Add(s);
-                return RedirectToAction("Details",s.Id);
+                return RedirectToAction("Details",s);
             }
             return View(s);
         }
 
-        public IActionResult Details(int id)
+        public IActionResult Details(Student s )
         {
-            var student = Students.FirstOrDefault(s => s.Id == id);
-            return View(student);
+            
+            return View(s);
         }
 
         public IActionResult Edit(int id)
         {
             var student = Students.FirstOrDefault(s => s.Id == id);
             return View(student);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Student s)
+        {
+            if (ModelState.IsValid)
+            {
+                Students.Add(s);
+                return RedirectToAction("Details", s);
+            }
+            return View(s);
         }
     }
 }
