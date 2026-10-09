@@ -67,6 +67,9 @@ namespace Scaffolding.Controllers
                 TuitionFee = 53000.25m
             }
         };
+
+        //Attribute Routing
+        [Route("ShowStudents")]
         public IActionResult Index()
         {
             return View(students);
@@ -89,6 +92,7 @@ namespace Scaffolding.Controllers
             return View(obj);
         }
 
+        [Route("DeleteStudent/{id?}")]
         public IActionResult Delete(int id)
         {
             var obj = students.FirstOrDefault(x => x.Id == id);

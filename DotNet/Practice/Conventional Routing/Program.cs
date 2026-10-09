@@ -35,6 +35,8 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
+
+// Conventional routing
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(
@@ -42,10 +44,10 @@ app.UseEndpoints(endpoints =>
         pattern: "{controller=Home}/{action=Index}/{id?}"
         );
 
-    endpoints.MapControllerRoute(
-        name: "Student",
-        pattern: "AllStudent/{controller=Student}/{action=Index}/{id?}"
-        );
+    //endpoints.MapControllerRoute(
+    //    name: "Student",
+    //    pattern: "AllStudent/{controller=Student}/{action=Index}/{id?}"
+    //    );
 
     endpoints.MapControllerRoute(
        name: "Student", // ae khane je kono name dea jabe
@@ -57,10 +59,10 @@ app.UseEndpoints(endpoints =>
        pattern: "EditStudent/{controller=Student}/{action=Edit}/{id?}"
        );
 
-    endpoints.MapControllerRoute(
-       name: "Student",
-       pattern: "DeleteStudent/{controller=Student}/{action=Delete}/{id?}"
-       );
+    //endpoints.MapControllerRoute(
+    //   name: "Student",
+    //   pattern: "DeleteStudent/{controller=Student}/{action=Delete}/{id?}"
+    //   );
 });
 
 app.MapRazorPages()
