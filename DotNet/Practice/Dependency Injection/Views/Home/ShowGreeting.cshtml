@@ -1,0 +1,11 @@
+﻿
+@using Dependency_Injection.Service
+@inject IGreeting greetings
+
+
+
+@{
+    string s = greetings.GetGreeting();
+}
+
+<h1>@s</h1>
