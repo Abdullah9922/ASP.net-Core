@@ -1,7 +1,21 @@
+using Serilog;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+#region Serilog Configeration 
+
+builder.Host.UseSerilog((Context, lc) => lc
+.MinimumLevel.Debug()
+.MinimumLevel.Override("Microsoft",Serilog.Events.LogEventLevel.Warning)
+.Enrich.FromLogContext()
+.WriteTo.File("Logs/Log.txt", rollingInterval: RollingInterval.Day));
+
+#endregion
+
 
 var app = builder.Build();
 

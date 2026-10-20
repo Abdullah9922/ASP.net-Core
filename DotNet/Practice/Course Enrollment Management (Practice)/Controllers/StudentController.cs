@@ -5,6 +5,13 @@ namespace Course_Enrollment_Management__Practice_.Controllers
 {
     public class StudentController : Controller
     {
+        private readonly ILogger<StudentController> _logger; 
+
+        public StudentController(ILogger<StudentController> logger)
+        {
+            _logger = logger;
+        }
+
         private static List<Student> Students = new List<Student>
         {
             new Student
@@ -28,6 +35,7 @@ namespace Course_Enrollment_Management__Practice_.Controllers
         public IActionResult Index(Student s)
         {
             return View(Students);
+            _logger.LogInformation("Student data send to Index");
         }
 
         public IActionResult AddStudent()
@@ -40,16 +48,18 @@ namespace Course_Enrollment_Management__Practice_.Controllers
         {
             if (ModelState.IsValid)
             {
+                _logger.LogInformation($"-------------Student {s.Id} add to list---------");
                 Students.Add(s);
                 return RedirectToAction("Details",s);
             }
             return View(s);
         }
 
-        public IActionResult Details(Student s )
+        public IActionResult Details(int id)
         {
-            
-            return View(s);
+
+            var student = Students.FirstOrDefault(s => s.Id == id);
+            return View(student);
         }
 
         public IActionResult Edit(int id)
@@ -63,10 +73,48 @@ namespace Course_Enrollment_Management__Practice_.Controllers
         {
             if (ModelState.IsValid)
             {
+                _logger.LogInformation($"-------------Student {s.Id} Edited to list---------");
                 Students.Add(s);
                 return RedirectToAction("Details", s);
             }
             return View(s);
+        }
+
+        // GET
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var student = Students.FirstOrDefault(s => s.Id == id);
+
+            if (student == null)
+            {
+                _logger.LogInformation($"-------------Student {student.Name} not found to list---------");
+                return NotFound();
+            }
+               
+
+            return View(student);
+        }
+
+        // POST
+        [HttpPost]
+        [ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            var student = Students.FirstOrDefault(s => s.Id == id);
+
+            if (student == null)
+            {
+                _logger.LogInformation($"-------------Student {student.Name} not found to list---------");
+                return NotFound();
+            }
+                
+
+            Students.Remove(student);
+            _logger.LogInformation($"-------------Student {student.Name} removed to list---------");
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }

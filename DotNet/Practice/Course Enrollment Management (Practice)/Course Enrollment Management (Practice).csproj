@@ -7,4 +7,8 @@
     <RootNamespace>Course_Enrollment_Management__Practice_</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
+  </ItemGroup>
+
 </Project>
