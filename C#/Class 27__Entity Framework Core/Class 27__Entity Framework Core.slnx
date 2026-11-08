@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="EFCoreExample/EFCoreExample.csproj" />
+  <Project Path="EFCoreExampleRepeat/EFCoreExampleRepeat.csproj" Id="05a2078c-8777-46ee-92a4-6e7a68e69d1b" />
+</Solution>
