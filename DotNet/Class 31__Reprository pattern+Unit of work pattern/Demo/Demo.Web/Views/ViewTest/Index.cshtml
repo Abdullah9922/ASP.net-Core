@@ -1,0 +1,28 @@
+﻿@model ViewTestIndexModel
+<div>
+    @using (Html.BeginForm("Index", "ViewTest", FormMethod.Post))
+    {
+        <div>
+            <label for="Username">Username:</label>
+            @Html.TextBoxFor(m => m.Username)
+        </div>
+        <div>
+            <label for="Password">Password:</label>
+            @Html.PasswordFor(m => m.Password)
+        </div>
+        <button type="submit">Login</button>
+    })
+</div>
+<div>
+    <form asp-controller="ViewTest" asp-action="Index" method="post">
+        <div>
+            <label asp-for="Username">Username:</label>
+            <input type="text" asp-for="Username" />
+        </div>
+        <div>
+            <label asp-for="Password">Password:</label>
+            <input type="password" asp-for="Password" />
+        </div>
+        <button type="submit">Login</button>
+    </form>
+</div>
