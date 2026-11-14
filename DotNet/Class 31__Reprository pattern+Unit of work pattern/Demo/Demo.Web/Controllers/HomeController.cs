@@ -1,3 +1,5 @@
+using Demo.Application.Contracts;
+using Demo.Domain.Entities;
 using Demo.Web.Code;
 using Demo.Web.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -9,11 +11,22 @@ namespace Demo.Web.Controllers
     {
         private readonly IEmailSender _emailSender;
         private readonly ILogger<HomeController> _logger;
+        private readonly IApplicationUnitOfWork _applicationUintOfWork;
 
-        public HomeController(IEmailSender emailSender, ILogger<HomeController> logger)
+        public HomeController(IEmailSender emailSender, ILogger<HomeController> logger, IApplicationUnitOfWork applicationUnitOfWork)
+
         {
+            _applicationUintOfWork = applicationUnitOfWork;
             _emailSender = emailSender;
             _logger = logger;
+        }
+
+        public IActionResult Test()
+        {
+            Product product = new Product { Id = Guid.NewGuid(), Name = "Test Product 1", Price = 2099 };
+            _applicationUintOfWork.Products.Add(product);
+            _applicationUintOfWork.Save();
+            return RedirectToAction("Index");
         }
 
         public IActionResult Index()
