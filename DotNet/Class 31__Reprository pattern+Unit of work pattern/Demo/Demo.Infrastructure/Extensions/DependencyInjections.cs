@@ -14,7 +14,11 @@ namespace Demo.Infrastructure.Extensions
         public static void AddDependency(this IServiceCollection services)
         {
             services.AddScoped<IApplicationUnitOfWork, ApplicationUnitOfWork>();
+
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<ISupplierRepository, SupplierRepository>();
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
         }
     }
 }

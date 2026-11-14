@@ -23,9 +23,43 @@ namespace Demo.Web.Controllers
 
         public IActionResult Test()
         {
-            Product product = new Product { Id = Guid.NewGuid(), Name = "Test Product 1", Price = 2099 };
+            var category = new Category
+            {
+                Id = Guid.NewGuid(),
+                Name = "Electronics",
+                Description = "Electronic devices"
+            };
+
+            var supplier = new Supplier
+            {
+                Id = Guid.NewGuid(),
+                Name = "ABC Suppliers",
+                Email = "supplier@example.com",
+                PhoneNumber = "01700000000"
+            };
+
+            var customer = new Customer
+            {
+                Id = Guid.NewGuid(),
+                Name = "Rahim Uddin",
+                Email = "rahim@example.com",
+                PhoneNumber = "01800000000"
+            };
+
+            var product = new Product
+            {
+                Id = Guid.NewGuid(),
+                Name = "Wireless Mouse",
+                Price = 2099m
+            };
+
+            _applicationUintOfWork.Categories.Add(category);
+            _applicationUintOfWork.Suppliers.Add(supplier);
+            _applicationUintOfWork.Customers.Add(customer);
             _applicationUintOfWork.Products.Add(product);
+
             _applicationUintOfWork.Save();
+
             return RedirectToAction("Index");
         }
 
