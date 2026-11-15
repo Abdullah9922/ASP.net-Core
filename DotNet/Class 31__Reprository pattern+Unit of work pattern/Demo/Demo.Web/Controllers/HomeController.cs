@@ -14,7 +14,6 @@ namespace Demo.Web.Controllers
         private readonly IApplicationUnitOfWork _applicationUintOfWork;
 
         public HomeController(IEmailSender emailSender, ILogger<HomeController> logger, IApplicationUnitOfWork applicationUnitOfWork)
-
         {
             _applicationUintOfWork = applicationUnitOfWork;
             _emailSender = emailSender;
