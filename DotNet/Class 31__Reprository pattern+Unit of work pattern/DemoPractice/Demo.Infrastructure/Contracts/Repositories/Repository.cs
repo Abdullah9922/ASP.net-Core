@@ -20,7 +20,6 @@ namespace Demo.Infrastructure.Data.Repositories
             _dbSet = context.Set<TAggregateRoot>();
         }
 
-
         public void Add(TAggregateRoot aggregateRoot)
         {
             _dbSet.Add(aggregateRoot);

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Demo.Infrastructure.Contracts
 {
-    public class UintOfWork : IUintOfWork,IDisposable
+    public abstract class UintOfWork : IUintOfWork,IDisposable
     {
 
         private readonly DbContext _context;

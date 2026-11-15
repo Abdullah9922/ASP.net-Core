@@ -9,9 +9,9 @@ namespace Demo.Infrastructure.Contracts
 {
     public class ApplicationUnitOfWork : UintOfWork, IApplicationUintOfWork
     {
-        public IStudentRepository StudentRepository {  get; private set; }
-        public ITeacherRepository TeacherRepository { get; private set; }
-        public ICourseRepository CourseRepository { get; private set; }
+        public IStudentRepository StudentRepository { get; }
+        public ITeacherRepository TeacherRepository { get; }
+        public ICourseRepository CourseRepository { get; }
 
         public ApplicationUnitOfWork(ApplicationDbContext applicationDbContext, IStudentRepository studentRepository, ITeacherRepository teacherRepository, ICourseRepository courseRepository) : base(applicationDbContext)
         {
