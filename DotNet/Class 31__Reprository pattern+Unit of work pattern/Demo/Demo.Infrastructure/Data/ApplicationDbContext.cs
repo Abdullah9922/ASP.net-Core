@@ -4,9 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Demo.Infrastructure.Data
 {
-    public class ApplicationDbContext(
-     DbContextOptions<ApplicationDbContext> options)
-     : IdentityDbContext(options)
+    public class ApplicationDbContext( DbContextOptions<ApplicationDbContext> options): IdentityDbContext(options)
     {
         public DbSet<Product> Products => Set<Product>();
         public DbSet<Category> Categories => Set<Category>();
