@@ -1,3 +1,5 @@
+using Cortex.Mediator.DependencyInjection;
+using Demo.Application.Contracts;
 using Demo.Infrastructure.Data;
 using Demo.Infrastructure.Extensions;
 using Microsoft.AspNetCore.Identity;
@@ -36,6 +38,13 @@ builder.Host.UseSerilog((context, lc) => lc
 
 #region Dependency Injection Configuration
 builder.Services.AddDependency();
+#endregion
+
+#region Cortex Mediator Configuration
+builder.Services.AddCortexMediator(
+    new[] { typeof(Program), typeof(IApplicationUnitOfWork) },
+    options => options.AddDefaultBehaviors()
+);
 #endregion
 
 var app = builder.Build();

@@ -6,22 +6,28 @@ using System.Text;
 
 namespace Demo.Infrastructure.Data
 {
-    public abstract class UnitOfWork : IUnitOfWork,IDisposable
+    public abstract class UnitOfWork : IUnitOfWork, IDisposable
     {
-        private readonly DbContext _context;
-        public UnitOfWork(DbContext context)
+        private readonly DbContext _dbContext;
+
+        public UnitOfWork(DbContext dbContext)
         {
-            _context = context;
+            _dbContext = dbContext;
         }
 
         public void Dispose()
         {
-            _context?.Dispose();
+            _dbContext.Dispose();
         }
 
         public void Save()
         {
-            _context.SaveChanges();
+            _dbContext.SaveChanges();
+        }
+
+        public async Task SaveAsync(CancellationToken cancellationToken)
+        {
+            await _dbContext.SaveChangesAsync(cancellationToken);
         }
     }
 }
