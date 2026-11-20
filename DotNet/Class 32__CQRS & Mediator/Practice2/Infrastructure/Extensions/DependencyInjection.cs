@@ -1,0 +1,22 @@
+﻿using Application.Contracts;
+using Application.Contracts.Repositories;
+using Infrastructure.Data;
+using Infrastructure.Data.Repositories;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Infrastructure.Extensions
+{
+    public static class DependencyInjection
+    {
+        public static void AddDependency(this IServiceCollection services)
+        {
+            services.AddScoped<IApplicationUnitOfWork, ApplicationUnitOfWork>();
+
+            services.AddScoped<IBookRepository, BookRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+        }
+    }
+}
